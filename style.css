@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: #F4F1EA;
+    color:#333333;
+}
+header{
+    margin-top: 0;
+    font-family: "Lato", sans-serif;
+    box-shadow:0px 0px 1px 0px;
+    position:fixed;
+}
+.summer{
+    display: flex;
+    justify-content: center;
+    height: 43px;
+    width:100%;
+}
+.nav-bar{
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    height: 50px;
+    width:100%;
+    background-color: #F4F1EA;
+}
+.nav-bar img{
+    display:inline-block;
+    height: 31px;
+    margin:0 16px 0 15px;
+}
+.nav-bar p{
+    color:#382110;
+    font-size: 17px;
+    line-height: 50px;
+    margin: 1px;
+    padding: 0 18px;
+}
+.nav-bar p:hover{
+    background-color: rgb(90, 48, 18);
+    color:#F4F1EA;
+}
+.input{
+    background-color: #ffff;
+    color: #333333;
+    border:1px solid #DCD6CC;
+    border-radius: 3px;
+    padding: 4px 8px 4px 8px;
+    margin:0px 25px 0px 0px;
+}
+.input:focus-within{
+    border: 1px solid black;
+}
+input{
+    width:300px;
+    border:none;
+}
+input:focus{
+    outline:none;
+}
+p i{
+    padding-left: 6px;
+    font-size: medium;
+}
+.nav-bar > i{
+    background-color:#cdbda5;
+    border:8px solid #cdbda5;
+    border-radius: 50%;
+    margin:0px 6px;
+    color:#F9F7F3;
+}
+#profile{
+    background-color: #E0DAC8;
+    border:8px solid #E0DAC8;
+    border-radius: 50%;
+    margin:0px 6px;
+    color:#F9F7F3;
+}
+.nav-bar>i:hover{
+    background-color:black;
+    border: 8px solid black;
+    margin:0px 6px;
+    color:#F9F7F3;
+}
+.main-body{
+    margin: 6% 9% 0% 9%;
+    display:inline-flex;
+    font-family: "Lato", sans-serif ;
+}
+.main-body > div{
+    margin:25px 10px 0px 10px;
+}
+.col1{
+    display:inline-block;
+    justify-content: left;
+    width:30%;
+}
+.what-ru-reading{
+    display: inline-flex;
+    align-content: center;
+    margin-bottom: 10px;
+}
+.what-ru-reading img{
+    margin-right: 8px;
+}
+.col1 > div{
+    border-bottom: 2px solid  #bdbdbd;
+    padding: 0 0 15px 0px;
+}
+.CR  .input{
+    width: 320px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.RC-inline {
+  display: flex;
+  align-items: top;   /* vertically center image with text */
+}
+
+.RC-inline img {
+  width: 120px;   /* adjust size as needed */
+  margin-right: 15px;  /* space between image and text */
+}
+
+.RC-inline div {
+  display: flex;
+  flex-direction: column;  /* stack p tags vertically */
+}
+.RC p{
+    margin: 5px;
+}
+.TBR{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 5px;
+    max-width: 300px; /* optional */
+    margin-bottom: 10px;
+}
+.TBR img {
+  width:100%   /* makes them fill the grid cell */
+}
+.col2{
+    display:inline-block;
+    justify-content: center;
+    width:45%;
+}
+#ad img{
+    width: 100%;
+}
+#ad{
+    border:#333333 solid 1px;
+    margin-top: 25px;
+    background-color: white;
+}
+#ad p{
+    padding: 10px;
+}
+.post{
+    border: 1px solid black;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+.post-header img{
+    width:50px;
+    border-radius: 70%;
+    padding:15px;
+}
+.post-header{
+    display:inline-flex;
+}
+.time{
+    margin:10px 5px 0 300px;
+}
+.post-body{
+    margin: 0 20px 0 20px;
+}
+.book-info {
+    display: flex;
+    border: #333333 solid 1px;
+    margin: 15px 0 0 0;
+    padding: 10px;
+    background: #fafafa;
+}
+
+.book-info img {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+
+/* Right side content stacked */
+.book-details {
+    display: flex;
+    flex-direction: column; /* stack vertically */
+    justify-content: flex-start;
+}
+
+.book-title {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+    color: #222;
+}
+
+.book-author {
+    font-size: 14px;
+    color: #555;
+    margin: 3px 0;
+}
+
+.book-details button {
+    background: #2e8b57;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    width: fit-content; /* button fits text */
+}
+.post-footer {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #eee;
+    margin-top: 12px;
+    padding: 10px 15px;
+    background: #f9f9f9;
+}
+
+.post-footer .comment-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.post-footer input {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    outline: none;
+    transition: all 0.2s ease;
+}
+
+/* Input focus effect */
+.post-footer input:focus {
+    border-color: #2e8b57;
+    box-shadow: 0 0 3px rgba(46,139,87,0.3);
+}
+/* Right Column Container */
+.right-column {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  color: #222;
+  font-size: 14px;
+}
+
+/* Awards Card */
+.award-card {
+  background: #1c2a1c;
+  color: white;
+  padding: 15px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.award-card img {
+  width: 100%;
+  margin: 10px 0;
+}
+.yellow-btn {
+  background: #f5c144;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.votes {
+  font-size: 13px;
+  margin-top: 10px;
+}
+.highlight {
+  font-weight: bold;
+}
+
+/* Footer Links */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.footer-section h4 {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-section ul li {
+  margin: 3px 0;
+}
+.footer-section ul li a {
+  text-decoration: none;
+  color: #00635d;
+}
+
+/* Connect (social icons) */
+.connect h4 {
+  margin-bottom: 8px;
+}
+.social-icons a img {
+  width: 28px;
+  margin-right: 8px;
+}
+
+/* App Store Buttons */
+.app-store {
+  margin: 15px 0;
+}
+.app-store img {
+  width: 130px;
+  margin: 5px;
+}
+
+/* Copyright */
+.copyright {
+  font-size: 12px;
+  color: #555;
+  margin-top: 10px;
+}
+

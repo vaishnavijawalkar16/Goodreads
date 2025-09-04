@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodreads</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="summer">
+            <img src="header.jpg">
+        </div>
+        <nav class="nav-bar">
+            <img src="goodreads_logo.svg">
+            <p>Home</p>
+            <p>My Books</p>
+            <p>Browse<i class="fa-solid fa-caret-down"></i></p>
+            <p>Community<i class="fa-solid fa-caret-down"></i></p>
+            <div class="input">
+                <input type="text" placeholder="Search books">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-comments"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-user-group"></i>
+            <i class="fa-solid fa-user" id="profile"></i>
+        </nav>
+    </header>
+    <main class="main-body">
+        <div class="col1">
+            <div class="CR">
+                <h4>CURRENTLY READING</h4>
+                <div class="what-ru-reading">
+                    <img src="what_are_you_reading.svg">
+                    <p class="current-read">What are you reading?</p>
+                </div>
+                <div class="input">
+                    <input type="text" placeholder="Search books">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a href="#">Recommendations</a><span> .</span>
+                <a href="#">General update</a>
+            </div>
+            <div class="RC">
+                <h4>2025 READING CHALLENGE</h4>
+                <div class="RC-inline">
+                    <img src="2025.png">
+                    <div>
+                        <p>Congrats! You have read 17 books of your goal of 10!</p>
+                        <p>17/10 (170%)</p>
+                        <a href="#">View Challenge</a><br>
+                    </div>
+                </div>
+            </div>
+            <div class="WTR">
+                <h4>WANT TO READ</h4>
+                <div class="TBR">
+                    <img src="five_survive.jpg">
+                    <img src="the_secret.jpg">
+                    <img src="psycology-of_money.jpg">
+                    <img src="Atmoic_habits.jpg">
+                    <img src="jaya.jpg">
+                    <img src="sita.jpg">
+                </div>
+                <a href="#">View all books</a>
+            </div>
+            <div class="bookshelf">
+                <h4>BOOKSHELVES</h4>
+                <a href="#">27 &nbsp; Want To Read</a><br>
+                <a href="#">0 &nbsp; Currently Reading</a><br>
+                <a href="#">65 &nbsp; Read</a><br>
+            </div>
+        </div>
+        <div class="col2">
+            <div id="ad">
+                <img src="the_hit_books_of_the_year_so_far.png" alt="image">
+                <p>
+                    <b>Your Guide to New Fantasy, Sci-Fi & Horror Reading for Fall</b><br>
+                    Witches, aliens, ghosts, oh my! Fill your Want-to-Read shelf with these new speculative fiction reads.
+                </p>
+            </div>
+            <h4>UPDATES</h4>
+            <div class="post">
+                <div class="post-header">
+                    <img src="profile.jpg" alt="profile">
+                    <p><b>John Doe</b> reviewed <b>The Psychology of Money</b></p>
+                    <p class="time">1h</p>
+                </div>
+                <div class="post-body">
+                    <p>The Algorithmic Fortress: Securing Our Future in the Age of 
+                        Generative AI and Omnipresent Data is a thought-provoking 
+                        and meticulously crafted exploration of how artificial 
+                        intelligence, ubiquitous data streams, and algorithmic 
+                        architectures are resh… More
+                    </p>
+                    <div class="book-info">
+                        <img src="book1.jpg" alt="book">
+                        <div class="book-details">
+                            <p class="book-title"><b>The Psychology of Money</b></p><br>
+                            <p class="book-author">by Tanvi Mehta</p><br>
+                            <button>Want to Read <i class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                    </div><br>
+                    <span>Like</span>
+                    <span>Comment</span>   
+                </div>
+                <div class="post-footer">
+                    <input type="text" placeholder="Write a comment...">                                                                                          
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="profile.jpg" alt="profile">
+                    <p><b>John Doe</b> reviewed <b>The Psychology of Money</b></p>
+                    <p class="time">1h</p>
+                </div>
+                <div class="post-body">
+                    <p>The Algorithmic Fortress: Securing Our Future in the Age of 
+                        Generative AI and Omnipresent Data is a thought-provoking 
+                        and meticulously crafted exploration of how artificial 
+                        intelligence, ubiquitous data streams, and algorithmic 
+                        architectures are resh… More
+                    </p>
+                    <div class="book-info">
+                        <img src="book2.jpg" alt="book">
+                        <div class="book-details">
+                            <p class="book-title"><b>The Psychology of Money</b></p><br>
+                            <p class="book-author">by Tanvi Mehta</p><br>
+                            <button>Want to Read <i class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                    </div><br>
+                    <span>Like</span>
+                    <span>Comment</span>   
+                </div>
+                <div class="post-footer">
+                    <input type="text" placeholder="Write a comment...">                                                                                          
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-header">
+                    <img src="profile.jpg" alt="profile">
+                    <p><b>John Doe</b> reviewed <b>The Psychology of Money</b></p>
+                    <p class="time">1h</p>
+                </div>
+                <div class="post-body">
+                    <p>The Algorithmic Fortress: Securing Our Future in the Age of 
+                        Generative AI and Omnipresent Data is a thought-provoking 
+                        and meticulously crafted exploration of how artificial 
+                        intelligence, ubiquitous data streams, and algorithmic 
+                        architectures are resh… More
+                    </p>
+                    <div class="book-info">
+                        <img src="book3.jpg" alt="book">
+                        <div class="book-details">
+                            <p class="book-title"><b>The Psychology of Money</b></p><br>
+                            <p class="book-author">by Tanvi Mehta</p><br>
+                            <button>Want to Read <i class="fa-solid fa-caret-down"></i></button>
+                        </div>
+                    </div><br>
+                    <span>Like</span>
+                    <span>Comment</span>   
+                </div>
+                <div class="post-footer">
+                    <input type="text" placeholder="Write a comment...">                                                                                          
+                </div>
+            </div>
+        </div>
+        <div class="col3">
+            <!-- Goodreads Choice Awards -->
+            <div class="award-card">
+                <h3>GOODREADS CHOICE AWARDS</h3>
+                <img src="choice-awards.png" alt="Choice Awards 2024">
+                <p><strong>Announcing Readers' Favorite Books of 2024</strong></p>
+                <button class="yellow-btn">See the Winners</button>
+                <p class="votes">6,261,936 Votes Cast<br><span class="highlight">Nupur has voted.</span></p>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="footer-links">
+                <div class="footer-section">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Interest Based Ads</a></li>
+                    <li><a href="#">Ad Preferences</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                </div>
+
+                <div class="footer-section">
+                <h4>WORK WITH US</h4>
+                <ul>
+                    <li><a href="#">Authors</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Authors & ads blog</a></li>
+                </ul>
+                </div>
+            </div>
+
+            <!-- Social Icons -->
+            <div class="connect">
+                <h4>CONNECT</h4>
+                <div class="social-icons">
+                <a href="#"><img src="facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="twitter.svg" alt="Twitter"></a>
+                <a href="#"><img src="insta.svg" alt="Instagram"></a>
+                <a href="#"><img src="linked_in.svg" alt="LinkedIn"></a>
+                </div>
+            </div>
+
+            <!-- App Store -->
+            <div class="app-store">
+                <img src="badge-ios-desktop-homepage-6ac7ae16eabce57f6c855361656a7540.svg" alt="Download on App Store">
+                <img src="badge-android-desktop-home-2x-e31514e1fb4dddecf9293aa526a64cfe.png" alt="Get it on Google Play">
+            </div>
+
+            <p class="copyright">
+                Mobile Version <br> © 2025 Goodreads, Inc.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
